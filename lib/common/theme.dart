@@ -5,9 +5,9 @@
 import 'package:flutter/material.dart';
 
 // Restaurant theme colors
-const restaurantPrimaryColor = Color(0xFF8D6E63); // Brown
-const restaurantAccentColor = Color(0xFFFF9800);  // Orange
-const backgroundColor = Color(0xFFF5F5F5);        // Light gray
+const restaurantPrimaryColor = Color.fromARGB(255, 161, 213, 255); 
+const restaurantAccentColor = Color.fromARGB(255, 25, 116, 176);  
+const backgroundColor = Color.fromARGB(255, 255, 255, 255);        
 
 final appTheme = ThemeData(
   colorScheme: ColorScheme.fromSeed(
